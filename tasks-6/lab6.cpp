@@ -45,12 +45,12 @@ int main()
 
   if (n%2==0)
   {
-    cout<<"Диагонали матрицы не имеют пересечения "<<endl;
+    cout<<"Matrix diagonals have no intersection"<<endl;
   }
   else 
   { 
-    cout<<"Диагонали матрицы имеют пересечение "<<endl;
-    cout<<"Общий элемент: "<<a[n/2][n/2];
+    cout<<"The diagonals of the matrix have intersection"<<endl;
+    cout<<"Common element: "<<a[n/2][n/2];
   }
 
   system("pause");
