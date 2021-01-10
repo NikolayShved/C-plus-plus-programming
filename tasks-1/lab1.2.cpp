@@ -1,14 +1,21 @@
 #include <iostream>
 #include <cmath>
+
 using namespace std;
 
 int main()
 {
-    double y,x,ex, temp;
+    int x, z, y;
+    double temp, p;
+
     cin>>x;
-    temp= sin (x);
-    ex= pow(M_E,x);
-    y=temp+3*ex;
+    cin>>z;
+
+    temp=log (x);
+    p=atan(z/x);
+    y=15/temp+p*1,5;
+
     cout<<y<<endl;
+
     return 0;
 }
